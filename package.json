@@ -1,0 +1,9 @@
+{
+  "name": "workplace-sharer",
+  "version": "1.0.0",
+  "description": "Share links to workplace",
+  "main": "background.js",
+  "repository": "",
+  "author": "Suman Kunwar",
+  "license": "MIT"
+}

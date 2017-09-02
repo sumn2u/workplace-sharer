@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "Share to Workplace",
+    "description": "The name of the chrome extension."
+  },
+  "contextMenuSharePage": {
+    "message": "Share this webpage to Workplace",
+    "description": "This message is shown when the context menu is displayed and no text is selected."
+  },
+  "contextMenuShareQuote": {
+    "message": "Share text as quote to Workplace",
+    "description": "This message is shown when the context menu is displayed and text is selected."
+  },
+  "contextMenuShareMedia": {
+    "message": "Share this media to Workplace",
+    "description": "This message is shown when the context menu is displayed by right clicking on a media"
+  },
+  "contextMenuShareLink": {
+    "message": "Share this link to Workplace"
+  },
+  "optionsPageUpdateSaved": {
+    "message": "Options saved",
+    "description": "This message is shown when the user updates any of their custom options in the options page."
+  },
+  "selectionOverlayMessage": {
+    "message": "Share this quote to Workplace",
+    "description": "When text is selected on a webpage, an overlay will be shown. This text is displayed inside the overlay."
+  }
+}

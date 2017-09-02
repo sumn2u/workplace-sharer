@@ -1,0 +1,36 @@
+{
+  "name": "Workplace Sharer",
+  "manifest_version": 2,
+  "version": "1.2.0",
+  "default_locale": "en_US",
+  "browser_action": {
+    "default_icon": "icons/Icon.png"
+  },
+  "icons": {
+    "29": "icons/Icon-Small.png",
+    "40": "icons/Icon-Small-40.png",
+    "50": "icons/Icon-Small-50.png",
+    "72": "icons/Icon-72.png",
+    "76": "icons/Icon-76.png"
+  },
+  "background": {
+    "scripts": [
+      "js/google-analytics-bundle.js",
+      "js/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    }
+  ],
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "https://google-analytics.com/*",
+    "tabs",
+    "contextMenus",
+    "storage"
+  ]
+}
